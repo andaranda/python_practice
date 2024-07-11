@@ -4,6 +4,9 @@ import math
 import wx
 import platform
 
+# This script splits the contents of an excel file into worksheets, by a predefined number of rows.
+# It asks for an excel file, then makes a copy of it. Only processes the first sheet of a file.
+
 # Define the number of rows per sheet
 ROWS_PER_SHEET = 30000
 
